@@ -66,7 +66,7 @@ export class CarritoService {
   }
 
   generarMensaje(){
-    const primeraParte = "https://wa.me/+5412345678?text=";
+    const primeraParte = "https://wa.me/+543416108425?text=";
     let parteProductos = ''
     this.carrito.forEach(itemCarrito => {
       parteProductos += `* ${itemCarrito.producto.nombre} - ${itemCarrito.cantidad}`
